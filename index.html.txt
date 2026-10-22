@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhid Khan | My Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            text-align: center;
+        }
+
+        header {
+            background: #101827;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            background: #2563eb;
+            margin: auto;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            max-width: 650px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            width: calc(100% - 30px);
+        }
+
+        .skill {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background: #101827;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="avatar">MK</div>
+        <h1>Muhid Khan</h1>
+        <p>Student | Future Web Developer</p>
+        <p>Welcome to My Personal Website!</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Muhid Khan.
+            I am learning about technology and coding.
+            Welcome to my personal profile website!
+        </p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <span class="skill">HTML</span>
+        <span class="skill">Web Development</span>
+        <span class="skill">Technology</span>
+        <span class="skill">Learning</span>
+    </section>
+
+    <section>
+        <h2>My Goal</h2>
+        <p>
+            My goal is to learn coding and build
+            amazing websites for the future.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Muhid Khan</p>
+    </footer>
+
+</body>
+</html>
+ 
